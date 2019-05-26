@@ -105,16 +105,15 @@ printf("%d\n", sizeof(gtphdr));
         // IP type
         if (ether_type == ETHERTYPE_IP)
         {
+            // from ethernet to ip
             iph = (struct ip*)pkt_data;
-            // printf("%d  \t", iph);
+            // from ip to udp
             iph = (struct ip*)((void*)iph+(iph->ip_hl*4));
-            // printf("%d  \t", iph);
+            // from udp to gtp
             iph = (struct ip*)((void*)iph+8);
-            // printf("%d  \n", iph);
+            // from gtp to ip
             iph = (struct ip*)((void*)iph+12);
-            // total count
             totallen += header->len;
-            // iph = (struct ip *)pkt_data;
 
             // TCP
             if (iph->ip_p == IPPROTO_TCP)

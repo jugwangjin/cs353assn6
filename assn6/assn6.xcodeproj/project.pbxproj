@@ -1,0 +1,72 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXFileReference section */
+		E2F4F23E229A0A7F00FC3E3A /* prob3.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = prob3.c; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		E2F4F237229A0A6C00FC3E3A = {
+			isa = PBXGroup;
+			children = (
+				E2F4F23E229A0A7F00FC3E3A /* prob3.c */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXProject section */
+		E2F4F238229A0A6C00FC3E3A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1020;
+			};
+			buildConfigurationList = E2F4F23B229A0A6C00FC3E3A /* Build configuration list for PBXProject "assn6" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E2F4F237229A0A6C00FC3E3A;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+			);
+		};
+/* End PBXProject section */
+
+/* Begin XCBuildConfiguration section */
+		E2F4F23C229A0A6C00FC3E3A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		E2F4F23D229A0A6C00FC3E3A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E2F4F23B229A0A6C00FC3E3A /* Build configuration list for PBXProject "assn6" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E2F4F23C229A0A6C00FC3E3A /* Debug */,
+				E2F4F23D229A0A6C00FC3E3A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E2F4F238229A0A6C00FC3E3A /* Project object */;
+}
